@@ -1,0 +1,7 @@
+echo "# example1.py" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/energy202546/example1.py.git
+git push -u origin main
